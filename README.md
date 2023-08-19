@@ -1,6 +1,3 @@
-Sure! Here's a GitHub README tutorial to help you showcase your batch script project effectively:
-
----
 
 # Hashcat Menu - Batch Script for Hash Cracking
 
@@ -25,6 +22,8 @@ To use this script, follow these steps:
 
 ## Usage
 
+
+
 The Hashcat Menu offers the following options:
 
 1. **Auto Detect Hashes:** Automatically detect hashes in the `hashes.txt` file and start cracking with rockyou.txt wordlist.
@@ -42,7 +41,6 @@ The Hashcat Menu offers the following options:
 - Customizable wordlist support.
 - Ability to search for supported hash names.
 - Easy deletion of potfile and opening hash files.
-- Provides credits to the script creator.
 
 ## Contributing
 
