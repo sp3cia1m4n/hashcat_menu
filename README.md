@@ -1,8 +1,6 @@
 
 # Hashcat Menu - Batch Script for Hash Cracking
 
-Welcome to the Hashcat Menu repository! This batch script provides a user-friendly interface for interacting with Hashcat, a popular password cracking tool. With this script, you can automate hash detection, search for hash names, crack hashes, manage potfiles, and more.
-
 ## Table of Contents
 
 - [Getting Started](#getting-started)
