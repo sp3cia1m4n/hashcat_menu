@@ -1,4 +1,4 @@
-
+ح
 # Hashcat Menu - Batch Script for Hash Cracking
 
 ## Table of Contents
@@ -40,17 +40,7 @@ The Hashcat Menu offers the following options:
 - Automatic hash detection and cracking.
 - Customizable wordlist support.
 - Ability to search for supported hash names.
-- Easy deletion of potfile and opening hash files.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions, improvements, or bug fixes, please feel free to create a pull request.
-
-1. Fork the repository.
-2. Create a new branch for your feature or improvement.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Create a pull request describing your changes.
+- Easy deletion of potfile and opening hash files..
 
 ## Credits
 
