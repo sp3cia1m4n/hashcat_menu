@@ -1,16 +1,15 @@
 @echo off
 title Hashcat Menu!
-color a
 goto setup
 
 :loop
+color a
 cls
-echo:
 echo [-]----------------------------------------[-]
 echo [-]             what you need ?            [-]
-echo [-]----------------------------------------[-]
+echo [-]----------------------------------------[-]		     
 echo: 
-echo [*] Current Selected Hash Number : %hash%
+echo [!] Current Selected Hash Number : %hash%
 echo:
 echo [1] Auto Detect Hashes
 echo [2] Search for Hash
@@ -18,10 +17,11 @@ echo [3] Cracking
 echo [4] Delete potfile
 echo [5] Open hash file
 echo [6] Display Last Cracked Hash
+echo [7] Credits
 echo:
 set /p "choice=Choose > "
 setlocal enabledelayedexpansion
-for %%i in (1 2 3 4 5 6) do (
+for %%i in (1 2 3 4 5 6 7) do (
     set "valid_choice=%%i"
     if "!choice!"=="!valid_choice!" (
         endlocal
@@ -30,7 +30,8 @@ for %%i in (1 2 3 4 5 6) do (
         if /i "%choice%"=="3" goto cracking
         if /i "%choice%"=="4" goto delete_potfile
         if /i "%choice%"=="5" goto open_hash_file
-		if /i "%choice%"=="6" goto pot_file
+	if /i "%choice%"=="6" goto pot_file
+	if /i "%choice%"=="7" goto credits
     )
 )
 endlocal
@@ -184,3 +185,19 @@ goto loop
     pause
     goto loop
 )
+:credits
+cls
+color c
+echo:
+echo:
+echo: - - - - - - - - - - - - - - - - - -
+echo:# By Sp3cia1M4N 	 
+echo:# 
+echo:# Twitter(X) : @Sp3cia1M4N
+echo:#
+echo:# Thanks for using my stupid script
+echo: - - - - - - - - - - - - - - - - - -
+echo:
+echo:
+pause
+goto loop
