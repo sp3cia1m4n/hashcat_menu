@@ -1,5 +1,5 @@
 
-# Hashcat Menu - Batch Script for Hash Cracking
+# Hashcat Menu - Batch Script
 
 ## Table of Contents
 
