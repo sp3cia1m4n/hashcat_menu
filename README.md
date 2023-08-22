@@ -1,4 +1,4 @@
-ح
+
 # Hashcat Menu - Batch Script for Hash Cracking
 
 ## Table of Contents
@@ -6,7 +6,6 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Credits](#credits)
 
 ## Getting Started
